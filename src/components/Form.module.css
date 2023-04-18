@@ -1,0 +1,55 @@
+.form {
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:2% auto;
+    background: rgba(239, 230, 249, 0.60);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(239, 230, 249, 0.3);
+  }
+  .inputField {
+    width: 60%;
+    padding: 0.5em;
+    margin: 1%;
+    border-radius: 10px;
+    outline: none;
+  }
+  .valid {
+    background-color: whitesmoke;
+    border: 2px solid black;
+  }
+  .inValid {
+    background-color: #f2b6d6;
+    border: 2px solid #8f1a59;
+  }
+  .validLabel {
+    color: black;
+    font-size: 1.2em;
+  }
+  .inValidLabel {
+    color: #8f1a59;
+    font-size: 1.2em;
+  }
+  .btn{
+    background-color: plum;
+    outline: none;
+    border-radius: 16px;
+    border: none;
+    margin:1% auto;
+    width: 10vw;
+    font-size: 1.3em;
+    height: 5vh;
+    color: black;
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+  }
+  .btn:hover{
+    color: white;
+    background-color:rgba(240, 128, 128, 0.367) ;
+  }
